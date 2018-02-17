@@ -14,7 +14,7 @@ body {
 }
 
 .container {
-    /*width: 1100px;*/
+    width: 1100px;
 }
 
 .container .carousel{
@@ -30,7 +30,7 @@ body {
 }
 
 .carousel {
-    margin-top: 25px;
+    margin-top: 60px;
 }
 
 ul, ol {
@@ -56,29 +56,11 @@ ul, ol {
     ul.nav li.dropdown:hover > ul.dropdown-menu {
         display: block;
     }
-
-
 }
 
-@media (min-width: 1200px) {
-    .content {
-        width: 1100px;
-    }
-}
-
-@media (max-width: 768px) {
-    h1 {
-        font-size: 25px;
-    }
-
-    h3 {
-        font-size: 15px;
-    }
-
-    p {
-        font-size: 10px;
-    }
-}
+/*ul.nav li.dropdown:hover > ul.dropdown-menu {*/
+    /*display: block;*/
+/*}*/
 
 .footer {
     position: absolute;
