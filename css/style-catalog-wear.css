@@ -130,7 +130,19 @@ h1 {
     justify-content: center;
 }
 
+
+#up, #down, #zero {
+    display: flex;
+    background-color: #000000;
+    color: #a4a4a4;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
 .footer {
+
     height: 100px;
     background-color: #434445;
     color: #a4a4a4;

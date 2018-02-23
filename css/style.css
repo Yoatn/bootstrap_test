@@ -13,7 +13,12 @@ body {
     margin-bottom: 60px;
 }
 
+.flex-content {
+    margin-bottom: 110px;
+}
+
 .container {
+
     /*width: 1100px;*/
 }
 
@@ -57,7 +62,6 @@ ul, ol {
         display: block;
     }
 
-
 }
 
 @media (min-width: 1200px) {
@@ -80,6 +84,8 @@ ul, ol {
     }
 }
 
+
+
 .footer {
     position: absolute;
     bottom: 0;
@@ -96,4 +102,6 @@ ul, ol {
     /*margin-top: 10px;*/
     /*padding: 30px;*/
 }
+
+
 
